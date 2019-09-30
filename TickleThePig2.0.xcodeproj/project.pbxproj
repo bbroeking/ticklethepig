@@ -12,6 +12,8 @@
 		DAEF6B4920A660E700E1464E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEF6B4720A660E700E1464E /* Main.storyboard */; };
 		DAEF6B4B20A660E800E1464E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEF6B4A20A660E800E1464E /* Assets.xcassets */; };
 		DAEF6B4E20A660E800E1464E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEF6B4C20A660E800E1464E /* LaunchScreen.storyboard */; };
+		DAEF6B5D20A6986200E1464E /* SupportFiles in Resources */ = {isa = PBXBuildFile; fileRef = DAEF6B5B20A6940700E1464E /* SupportFiles */; };
+		DAEF6B5F20A698A400E1464E /* oink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEF6B5E20A698A400E1464E /* oink.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DAEF6B4A20A660E800E1464E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAEF6B4D20A660E800E1464E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAEF6B4F20A660E800E1464E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAEF6B5B20A6940700E1464E /* SupportFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SupportFiles; sourceTree = "<group>"; };
+		DAEF6B5E20A698A400E1464E /* oink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = oink.mp3; path = SupportFiles/oink.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		DAEF6B4220A660E700E1464E /* TickleThePig2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				DAEF6B5E20A698A400E1464E /* oink.mp3 */,
+				DAEF6B5B20A6940700E1464E /* SupportFiles */,
 				DAEF6B4320A660E700E1464E /* AppDelegate.swift */,
 				DAEF6B4520A660E700E1464E /* ViewController.swift */,
 				DAEF6B4720A660E700E1464E /* Main.storyboard */,
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEF6B5D20A6986200E1464E /* SupportFiles in Resources */,
+				DAEF6B5F20A698A400E1464E /* oink.mp3 in Resources */,
 				DAEF6B4E20A660E800E1464E /* LaunchScreen.storyboard in Resources */,
 				DAEF6B4B20A660E800E1464E /* Assets.xcassets in Resources */,
 				DAEF6B4920A660E700E1464E /* Main.storyboard in Resources */,
