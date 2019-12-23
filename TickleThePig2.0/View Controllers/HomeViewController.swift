@@ -60,7 +60,7 @@ class HomeViewController: UIViewController, UIGestureRecognizerDelegate {
     func getTickleCount() {
         let docRef = db.collection("tickles").document(self.currentUser!.uid)
         
-        docRef.getDocument { (document, error) in
+        docRef.addSnapshotListener { (document, error) in
             if let document = document, document.exists {
                 self.availableTickles = document.get("availableTickles") as! Int
                 self.totalTickles = document.get("numTickles") as! Int

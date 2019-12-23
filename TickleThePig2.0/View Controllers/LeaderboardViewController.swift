@@ -33,11 +33,12 @@ class TableViewController: UITableViewController {
     }
     
     func getLeaders() {
-        let query: Query = self.db.collection("tickles").order(by: "numTickles", descending: true).limit(to: 5)
-        query.getDocuments() { (snapshot, err) in
+        let query: Query = self.db.collection("tickles").order(by: "numTickles", descending: true).limit(to: 100)
+        query.addSnapshotListener { (snapshot, err) in
             guard let snapshot = snapshot else {
               return
             }
+            self.tableViewData = []
             for document in snapshot.documents {
                 let item: cellData = cellData(uid: document.data()["username"] as! String, count: document.data()["numTickles"] as! Int)
                 self.tableViewData.append(item)

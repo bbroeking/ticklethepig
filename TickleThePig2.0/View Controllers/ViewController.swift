@@ -8,7 +8,6 @@
 
 import UIKit
 import FirebaseFirestore
-import Firebase
 import FirebaseAuth
 
 class ViewController: UIViewController {
@@ -18,10 +17,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let uid = Auth.auth().currentUser // can be used to keep session 
-        let db = Firestore.firestore()
-
+        if Auth.auth().currentUser != nil {
+            switchStoryboard()
+        }
     }
-    
+    func switchStoryboard() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "tabBar") as UIViewController
+        self.navigationController?.pushViewController(controller, animated: true)
+//        self.present(controller, animated: true, completion: nil)
+    }
 }
+
+
 
