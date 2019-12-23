@@ -20,18 +20,7 @@ class HomeViewController: UIViewController, UIGestureRecognizerDelegate {
     var totalTickles: Int = 0
     var availableTickles: Int = 0
     
-    var oinkPlayer:AVAudioPlayer? = nil
-    func loadSound(filename: String) -> AVAudioPlayer {
-      let url = Bundle.main.url(forResource: filename, withExtension: "mp3")
-      var player = AVAudioPlayer()
-      do {
-        try player = AVAudioPlayer(contentsOf: url!)
-        player.prepareToPlay()
-      } catch {
-        print("Error loading \(url!): \(error.localizedDescription)")
-      }
-      return player
-    }
+    var audioPlayer = AVAudioPlayer()
     
     @IBOutlet weak var TickleCounter: UILabel!
     @IBOutlet weak var TotalTickleCounter: UILabel!
@@ -46,15 +35,22 @@ class HomeViewController: UIViewController, UIGestureRecognizerDelegate {
         backgroundImage.image = UIImage(named: "background.png")
         self.view.insertSubview(backgroundImage, at: 0)
         self.barnImage.image = UIImage(named: "Cooper_Barn.png")
-        pig.loadGif(name: "pig")
+        pig.loadGif(name: "SupportFiles/pig")
         self.getTickleCount()
         
-        let recognizer2 = TickleGestureRecognizer(target: self,
+        let recognizer = TickleGestureRecognizer(target: self,
           action:#selector(handleTickle(recognizer:)))
-        recognizer2.delegate = self
-        view.addGestureRecognizer(recognizer2)
+        recognizer.delegate = self
+        view.addGestureRecognizer(recognizer)
         
-//        self.oinkPlayer = self.loadSound(filename: "oink")
+//        let sound = Bundle.main.path(forResource: "oink", ofType: "mp3")
+//
+//        do {
+//            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+//        }
+//        catch {
+//            print(error)
+//        }
     }
     
     func getTickleCount() {

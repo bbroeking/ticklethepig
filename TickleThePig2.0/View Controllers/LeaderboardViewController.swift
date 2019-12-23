@@ -25,7 +25,7 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.getLeaders()
-        gifView.loadGif(name: "pig")
+        gifView.loadGif(name: "SupportFiles/pig")
         tableView.delegate = self
         tableView.dataSource = self
         tableView.reloadData()
