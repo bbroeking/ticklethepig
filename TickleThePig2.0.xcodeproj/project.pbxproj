@@ -12,19 +12,21 @@
 		DA691B7C23444DFF0031BA5E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA691B7B23444DFF0031BA5E /* Constants.swift */; };
 		DA691B84234C08BE0031BA5E /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA691B83234C08BE0031BA5E /* LeaderboardViewController.swift */; };
 		DA691B88234C2FE90031BA5E /* LeaderboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA691B87234C2FE90031BA5E /* LeaderboardCell.swift */; };
+		DA7D94F423BB099D009A4935 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D94F323BB099D009A4935 /* SettingsViewController.swift */; };
+		DA7D94F823BB0CB3009A4935 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D94F523BB09D1009A4935 /* SettingsCell.swift */; };
+		DA7D94F923BB0CB7009A4935 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D94F623BB09D1009A4935 /* UserInfoHeader.swift */; };
+		DA7D950223BC0675009A4935 /* SettingsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7D950123BC0675009A4935 /* SettingsSection.swift */; };
 		DAA1B6962344133100088C70 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1B6952344133100088C70 /* SignupViewController.swift */; };
 		DAA1B6982344134700088C70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1B6972344134700088C70 /* LoginViewController.swift */; };
 		DAA1B69A2344135600088C70 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA1B6992344135600088C70 /* HomeViewController.swift */; };
+		DAD719C023B1285E006D0190 /* SupportFiles in Resources */ = {isa = PBXBuildFile; fileRef = DAEF6B5B20A6940700E1464E /* SupportFiles */; };
 		DAE68419234427E1007832FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAE68418234427E1007832FC /* GoogleService-Info.plist */; };
 		DAEF6B4420A660E700E1464E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF6B4320A660E700E1464E /* AppDelegate.swift */; };
 		DAEF6B4620A660E700E1464E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEF6B4520A660E700E1464E /* ViewController.swift */; };
 		DAEF6B4920A660E700E1464E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEF6B4720A660E700E1464E /* Main.storyboard */; };
 		DAEF6B4B20A660E800E1464E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEF6B4A20A660E800E1464E /* Assets.xcassets */; };
 		DAEF6B4E20A660E800E1464E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEF6B4C20A660E800E1464E /* LaunchScreen.storyboard */; };
-		DAEF6B5D20A6986200E1464E /* SupportFiles in Resources */ = {isa = PBXBuildFile; fileRef = DAEF6B5B20A6940700E1464E /* SupportFiles */; };
-		DAEF6B5F20A698A400E1464E /* oink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEF6B5E20A698A400E1464E /* oink.mp3 */; };
 		DAF49993235A98CE004FC0FC /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF49992235A98CE004FC0FC /* Swift+Gif.swift */; };
-		DAF49996235A9A43004FC0FC /* pig.gif in Resources */ = {isa = PBXBuildFile; fileRef = DAF49995235A9A43004FC0FC /* pig.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +34,14 @@
 		52140ED5C2CFAA28B933DFF3 /* Pods-TickleThePig2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickleThePig2.0.debug.xcconfig"; path = "Target Support Files/Pods-TickleThePig2.0/Pods-TickleThePig2.0.debug.xcconfig"; sourceTree = "<group>"; };
 		D7944FA465104CA4DD1E97C9 /* Pods-TickleThePig2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TickleThePig2.0.release.xcconfig"; path = "Target Support Files/Pods-TickleThePig2.0/Pods-TickleThePig2.0.release.xcconfig"; sourceTree = "<group>"; };
 		DA31111323A41CD4005C13A3 /* TickleGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickleGestureRecognizer.swift; sourceTree = "<group>"; };
-		DA31111523A42A4A005C13A3 /* TickleThePig2.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TickleThePig2.0-Bridging-Header.h"; sourceTree = "<group>"; };
 		DA691B7B23444DFF0031BA5E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DA691B83234C08BE0031BA5E /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
-		DA691B87234C2FE90031BA5E /* LeaderboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardCell.swift; sourceTree = "<group>"; };
+		DA691B87234C2FE90031BA5E /* LeaderboardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LeaderboardCell.swift; path = ../LeaderboardCell.swift; sourceTree = "<group>"; };
+		DA7D94F323BB099D009A4935 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DA7D94F523BB09D1009A4935 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		DA7D94F623BB09D1009A4935 /* UserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		DA7D94FA23BB0E73009A4935 /* TickleThePig2.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TickleThePig2.0-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA7D950123BC0675009A4935 /* SettingsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSection.swift; sourceTree = "<group>"; };
 		DAA1B6952344133100088C70 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		DAA1B6972344134700088C70 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DAA1B6992344135600088C70 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -48,9 +54,7 @@
 		DAEF6B4D20A660E800E1464E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAEF6B4F20A660E800E1464E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAEF6B5B20A6940700E1464E /* SupportFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SupportFiles; sourceTree = "<group>"; };
-		DAEF6B5E20A698A400E1464E /* oink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oink.mp3; sourceTree = "<group>"; };
 		DAF49992235A98CE004FC0FC /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
-		DAF49995235A9A43004FC0FC /* pig.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pig.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,28 +89,48 @@
 		DA691B7A23444DED0031BA5E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DA31111323A41CD4005C13A3 /* TickleGestureRecognizer.swift */,
+				DAF49992235A98CE004FC0FC /* Swift+Gif.swift */,
 				DA691B7B23444DFF0031BA5E /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		DAA1B69B2344135B00088C70 /* View Controllers */ = {
+		DA7D94F723BB09D1009A4935 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DAEF6B5E20A698A400E1464E /* oink.mp3 */,
+				DA691B87234C2FE90031BA5E /* LeaderboardCell.swift */,
+				DA7D94F523BB09D1009A4935 /* SettingsCell.swift */,
+				DA7D94F623BB09D1009A4935 /* UserInfoHeader.swift */,
+			);
+			name = View;
+			path = /Users/broeking/projects/ticklethepig/TickleThePig2.0/View;
+			sourceTree = "<absolute>";
+		};
+		DA7D950023BC05DD009A4935 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA7D950123BC0675009A4935 /* SettingsSection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAA1B69B2344135B00088C70 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA7D94F323BB099D009A4935 /* SettingsViewController.swift */,
 				DAA1B6952344133100088C70 /* SignupViewController.swift */,
 				DAEF6B4520A660E700E1464E /* ViewController.swift */,
 				DAA1B6972344134700088C70 /* LoginViewController.swift */,
 				DAA1B6992344135600088C70 /* HomeViewController.swift */,
 				DA691B83234C08BE0031BA5E /* LeaderboardViewController.swift */,
 			);
-			path = "View Controllers";
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		DAEF6B3720A660E700E1464E = {
 			isa = PBXGroup;
 			children = (
-				DAF49992235A98CE004FC0FC /* Swift+Gif.swift */,
 				DA691B7A23444DED0031BA5E /* Helpers */,
 				DAEF6B4220A660E700E1464E /* TickleThePig2.0 */,
 				DAEF6B4120A660E700E1464E /* Products */,
@@ -126,18 +150,17 @@
 		DAEF6B4220A660E700E1464E /* TickleThePig2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				DAA1B69B2344135B00088C70 /* View Controllers */,
-				DAF49995235A9A43004FC0FC /* pig.gif */,
+				DA7D950023BC05DD009A4935 /* Model */,
+				DA7D94F723BB09D1009A4935 /* View */,
+				DAA1B69B2344135B00088C70 /* Controllers */,
 				DAEF6B5B20A6940700E1464E /* SupportFiles */,
 				DAEF6B4320A660E700E1464E /* AppDelegate.swift */,
 				DAEF6B4720A660E700E1464E /* Main.storyboard */,
-				DA31111323A41CD4005C13A3 /* TickleGestureRecognizer.swift */,
 				DAEF6B4A20A660E800E1464E /* Assets.xcassets */,
 				DAEF6B4C20A660E800E1464E /* LaunchScreen.storyboard */,
 				DAE68418234427E1007832FC /* GoogleService-Info.plist */,
 				DAEF6B4F20A660E800E1464E /* Info.plist */,
-				DA691B87234C2FE90031BA5E /* LeaderboardCell.swift */,
-				DA31111523A42A4A005C13A3 /* TickleThePig2.0-Bridging-Header.h */,
+				DA7D94FA23BB0E73009A4935 /* TickleThePig2.0-Bridging-Header.h */,
 			);
 			path = TickleThePig2.0;
 			sourceTree = "<group>";
@@ -154,6 +177,7 @@
 				DAEF6B3D20A660E700E1464E /* Frameworks */,
 				DAEF6B3E20A660E700E1464E /* Resources */,
 				85C1111C97CDC5EA05E4084F /* [CP] Embed Pods Frameworks */,
+				F6600E5814C2F5F7DF6CDCBA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,13 +227,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAEF6B5D20A6986200E1464E /* SupportFiles in Resources */,
-				DAEF6B5F20A698A400E1464E /* oink.mp3 in Resources */,
+				DAD719C023B1285E006D0190 /* SupportFiles in Resources */,
 				DAEF6B4E20A660E800E1464E /* LaunchScreen.storyboard in Resources */,
 				DAEF6B4B20A660E800E1464E /* Assets.xcassets in Resources */,
 				DAEF6B4920A660E700E1464E /* Main.storyboard in Resources */,
 				DAE68419234427E1007832FC /* GoogleService-Info.plist in Resources */,
-				DAF49996235A9A43004FC0FC /* pig.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +277,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TickleThePig2.0/Pods-TickleThePig2.0-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F6600E5814C2F5F7DF6CDCBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TickleThePig2.0/Pods-TickleThePig2.0-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TickleThePig2.0/Pods-TickleThePig2.0-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TickleThePig2.0/Pods-TickleThePig2.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -262,14 +301,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7D950223BC0675009A4935 /* SettingsSection.swift in Sources */,
 				DA691B84234C08BE0031BA5E /* LeaderboardViewController.swift in Sources */,
 				DAA1B69A2344135600088C70 /* HomeViewController.swift in Sources */,
+				DA7D94F823BB0CB3009A4935 /* SettingsCell.swift in Sources */,
 				DAA1B6982344134700088C70 /* LoginViewController.swift in Sources */,
 				DAA1B6962344133100088C70 /* SignupViewController.swift in Sources */,
+				DA7D94F423BB099D009A4935 /* SettingsViewController.swift in Sources */,
 				DAF49993235A98CE004FC0FC /* Swift+Gif.swift in Sources */,
 				DAEF6B4620A660E700E1464E /* ViewController.swift in Sources */,
 				DA691B88234C2FE90031BA5E /* LeaderboardCell.swift in Sources */,
 				DA31111423A41CD4005C13A3 /* TickleGestureRecognizer.swift in Sources */,
+				DA7D94F923BB0CB7009A4935 /* UserInfoHeader.swift in Sources */,
 				DAEF6B4420A660E700E1464E /* AppDelegate.swift in Sources */,
 				DA691B7C23444DFF0031BA5E /* Constants.swift in Sources */,
 			);
@@ -418,12 +461,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6G4LKUVSLV;
 				INFOPLIST_FILE = TickleThePig2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "broekingIndustries.TickleThePig2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TickleThePig2.0/TickleThePig2.0-Bridging-Header.h";
@@ -440,12 +485,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6G4LKUVSLV;
 				INFOPLIST_FILE = TickleThePig2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "broekingIndustries.TickleThePig2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TickleThePig2.0/TickleThePig2.0-Bridging-Header.h";

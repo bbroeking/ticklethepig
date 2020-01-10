@@ -11,13 +11,13 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TickleThePig2_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="launchPage" id="BYZ-38-t0r" customClass="ViewController" customModule="TickleThePig2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Nfu-aM-r0G">
-                                <rect key="frame" x="40" y="527" width="295" height="100"/>
+                                <rect key="frame" x="40" y="507" width="295" height="100"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="StC-wK-Qcd">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="40"/>
@@ -117,11 +117,12 @@
                     <connections>
                         <outlet property="gifView" destination="nkp-7S-4WE" id="4dv-hu-xTR"/>
                         <outlet property="tableView" destination="2mR-XJ-t84" id="0GQ-Rz-KoD"/>
+                        <segue destination="BYZ-38-t0r" kind="showDetail" identifier="logoutSegue" id="m5F-9g-1QL"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pHo-d5-b7r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2551.1999999999998" y="-26.53673163418291"/>
+            <point key="canvasLocation" x="-2484" y="45"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="fC3-CV-hsX">
@@ -135,11 +136,12 @@
                     <connections>
                         <segue destination="F9w-KP-eQa" kind="relationship" relationship="viewControllers" id="vC4-e5-sag"/>
                         <segue destination="9HK-Mt-FzN" kind="relationship" relationship="viewControllers" id="3GH-rY-TYy"/>
+                        <segue destination="xAb-LF-IY8" kind="relationship" relationship="viewControllers" id="sIB-8Y-pqC"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QQ0-dd-BEO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3464" y="223"/>
+            <point key="canvasLocation" x="-3303" y="-709"/>
         </scene>
         <!--Tickle-->
         <scene sceneID="vjc-tm-RQ5">
@@ -208,14 +210,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qfp-uO-SNU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2551.1999999999998" y="754.27286356821594"/>
+            <point key="canvasLocation" x="-3303" y="45"/>
         </scene>
         <!--Signup View Controller-->
         <scene sceneID="5RA-72-5QO">
             <objects>
                 <viewController id="o9E-LQ-ExL" customClass="SignupViewController" customModule="TickleThePig2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2xs-1D-1pb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cer-Pk-fnl">
@@ -283,14 +285,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNK-g7-6fW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-855" y="45"/>
+            <point key="canvasLocation" x="-938" y="45"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="f4Q-iK-NVt">
             <objects>
                 <viewController id="E0f-dJ-a4h" customClass="LoginViewController" customModule="TickleThePig2_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xe6-fA-IZ0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hvp-7d-K4u">
@@ -313,7 +315,7 @@
                                             <action selector="loginTapped:" destination="E0f-dJ-a4h" eventType="touchUpInside" id="bEe-E9-wN0"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbn-XK-RT2">
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gbn-XK-RT2">
                                         <rect key="frame" x="0.0" y="102" width="295" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -344,7 +346,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fRB-z9-y8f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-855.20000000000005" y="753.37331334332839"/>
+            <point key="canvasLocation" x="-938" y="808"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ed1-2z-diD">
@@ -356,12 +358,32 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ycx-Wj-h9d"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="GpO-W5-dM3"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k3p-JC-4QW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-855" y="-709"/>
+            <point key="canvasLocation" x="-1743" y="-709"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="YA0-LX-TKl">
+            <objects>
+                <viewController storyboardIdentifier="settingsVC" id="xAb-LF-IY8" customClass="SettingsViewController" customModule="TickleThePig2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Ng-xA-A7q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Qyx-ur-ohd"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" id="cuY-jJ-fvK"/>
+                    <navigationItem key="navigationItem" id="yFO-Hc-mak"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tf3-Hf-JBw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4042" y="45"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="m5F-9g-1QL"/>
+    </inferredMetricsTieBreakers>
 </document>
